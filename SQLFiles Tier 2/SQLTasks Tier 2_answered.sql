@@ -105,7 +105,7 @@ USING ( facid )
 JOIN Members
 USING ( memid ) 
 WHERE (
-DATE( starttime ) =  '2012-09-13'
+DATE( starttime ) =  '2012-09-14'
 )
 AND (
 
@@ -141,6 +141,7 @@ ORDER BY totalcost DESC;
 
 Export the country club data from PHPMyAdmin, and connect to a local SQLite instance from Jupyter notebook 
 for the following questions.  
+Answered in Jupyter notebook
 
 QUESTIONS:
 /* Q10: Produce a list of facilities with a total revenue less than 1000.
